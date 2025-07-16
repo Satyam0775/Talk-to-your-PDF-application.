@@ -1,43 +1,35 @@
-# Talk-to-your-PDF-application.
+# 🧠 Talk to Your PDF Application
 
-# 🧠 Talk to Your PDF
+A conversational AI-powered app that allows users to upload any PDF and interact with it in plain English.
 
-A simple, AI-powered app that lets you interact with your PDF documents using natural language.
-
-This tool enables students, researchers, professionals, and anyone working with long documents to **upload a PDF, ask questions**, and receive **AI-generated answers**—all through an elegant, minimal interface.
+Get intelligent answers based on the document's content — powered by Hugging Face Transformers!
 
 ---
 
 ## 🚀 Features
 
-- 📤 Upload and read any PDF file
-- ❓ Ask natural-language questions
-- 🤖 Get answers using **Hugging Face Inference API**
-- 🎨 Dark mode UI with red theme
-- 🔐 Uses `.env` file to securely load your Hugging Face token
-- 🧠 Powered by `facebook/bart-large-cnn` for summarization and response
+- 📁 Upload PDF files (up to 200MB)
+- 📝 AI-generated summary of the entire PDF
+- ❓ Ask questions in plain English about the document
+- 🤖 Powered by:
+  - `facebook/bart-large-cnn` for summarization
+  - `deepset/roberta-base-squad2` for question answering
+- 💬 Streamlit UI with user-friendly interface
+- 🔐 API Key securely loaded via `.env`
 
 ---
 
-## 📸 Preview
+## 📸 Demo Screenshot
 
-![App Screenshot](https://via.placeholder.com/800x400.png?text=Screenshot+Placeholder)
-
----
-
-## 🔧 Technologies Used
-
-- `Streamlit` – UI & app framework  
-- `PyPDF2` – PDF text extraction  
-- `Hugging Face Transformers` – API for NLP model  
-- `dotenv` – Secure API key handling  
-- `requests` – HTTP calls to Hugging Face
+![Talk to PDF App Screenshot](<img width="956" height="407" alt="image" src="https://github.com/user-attachments/assets/30a1bcdf-7607-4896-aa31-0947bb1ec40f" />
+)
 
 ---
 
-## 📦 Installation & Running Locally
+## 🛠️ Installation
 
-1. **Clone the repository**:
+1. **Clone this repo**  
    ```bash
-   git clone https://github.com/your-username/talk-to-your-pdf.git
-   cd talk-to-your-pdf
+   git clone https://github.com/Satyam0775/Talk-to-your-PDF-application.git
+   cd Talk-to-your-PDF-application
+
