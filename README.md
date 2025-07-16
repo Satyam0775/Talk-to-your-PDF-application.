@@ -6,6 +6,12 @@ Get intelligent answers based on the document's content — powered by Hugging F
 
 ---
 
+## 📸 Demo Screenshot
+
+![Talk to Your PDF Demo](demo_screenshot.png)
+
+---
+
 ## 🚀 Features
 
 - 📁 Upload PDF files (up to 200MB)
@@ -19,17 +25,9 @@ Get intelligent answers based on the document's content — powered by Hugging F
 
 ---
 
-## 📸 Demo Screenshot
-
-![Talk to PDF App Screenshot](<img width="956" height="407" alt="image" src="https://github.com/user-attachments/assets/30a1bcdf-7607-4896-aa31-0947bb1ec40f" />
-)
-
----
-
 ## 🛠️ Installation
 
 1. **Clone this repo**  
    ```bash
    git clone https://github.com/Satyam0775/Talk-to-your-PDF-application.git
    cd Talk-to-your-PDF-application
-
