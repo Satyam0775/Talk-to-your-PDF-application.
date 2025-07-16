@@ -2,7 +2,7 @@
 
 A conversational AI-powered app that allows users to upload any PDF and interact with it in plain English.
 
-Get intelligent answers based on the document's content — powered by Hugging Face Transformers!
+Get intelligent answers based on the document's content powered by Hugging Face Transformers!
 
 ---
 
