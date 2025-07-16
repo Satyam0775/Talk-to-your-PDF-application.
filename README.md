@@ -8,7 +8,8 @@ Get intelligent answers based on the document's content — powered by Hugging F
 
 ## 📸 Demo Screenshot
 
-![Talk to Your PDF Demo](demo_screenshot.png)
+![Talk to Your PDF Demo]<img width="956" height="407" alt="demo_screenshot" src="https://github.com/user-attachments/assets/52a84f1a-9505-40e4-a69f-d0f10823756e" />
+(demo_screenshot.png)
 
 ---
 
