@@ -32,3 +32,56 @@ Get intelligent answers based on the document's content — powered by Hugging F
    ```bash
    git clone https://github.com/Satyam0775/Talk-to-your-PDF-application.git
    cd Talk-to-your-PDF-application
+
+   Create a .env file with your Hugging Face API token:
+
+HUGGINGFACE_API_KEY=your_huggingface_token
+Install dependencies
+
+pip install -r requirements.txt
+Run the app locally
+
+streamlit run app.py
+🧪 Example Usage
+Upload a PDF — e.g., Bihar Assembly Elections 2025.pdf
+
+Click “📝 Generate Summary”
+
+Ask:
+
+Get real-time answers from the AI!
+
+🧰 Tech Stack
+Streamlit for web interface
+
+PyPDF2 for PDF text extraction
+requests for Hugging Face API
+Hugging Face Transformers (Inference API):
+bart-large-cnn for summarization
+roberta-base-squad2 for Q&A
+
+.env for secure API token management
+
+📁 Folder Structure
+TALK-WITH-PDF-MAIN/
+├── .streamlit/
+│   └── config.toml
+├── app.py
+├── .env                 # Your Hugging Face token
+├── requirements.txt
+├── .gitignore
+├── README.md
+📄 License
+This project is for educational and demonstration purposes under the MIT License.
+
+📬 Submission
+For Blackrose AI Team or recruiter review, this project meets:
+
+Functional PDF upload & QA
+Proper folder structure
+API-based LLM response
+Secure API key handling
+Readable, clean UI
+
+🤝 Connect
+👤 Satyma Kumar 
